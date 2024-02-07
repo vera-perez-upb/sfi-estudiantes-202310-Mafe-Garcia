@@ -7,3 +7,5 @@ As it was said in the guide, the led started flashing it's light quickly
 
 **What happened when it was changed to 500?**
 It kept flashing but the frequency was lower, now the light comes and goes slower.
+
+Ejercicio 4 se encuentra en [este enlace](https://github.com/Mafe-Garcia/otroRepo)
