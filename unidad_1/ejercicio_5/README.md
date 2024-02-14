@@ -11,7 +11,6 @@ https://www.arduino.cc/en/Guide
 
 https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/
 
-https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/?_gl=1*brv26k*_ga*MTQ5NDAwOTc5LjE3MDc0ODM2NzQ.*_ga_NEXN8H46L5*MTcwNzQ4MzY3NC4xLjEuMTcwNzQ4NjI1NC4wLjAuMA..*_fplc*c1FJRm1oM1ZKY1VCJTJCeFVKYXJKa3BIdWFNeXV6b0twRzBqZUZlWkN6QkhneGI3NHBjeHM0Nk4lMkJrZjhBNEFNbjlWMUNxZ0doNkZlaHRzeFgyNSUyQmNxcDQ0MnVBV2lmNVhBeWRBVnBTcEluQllvRE0lMkJ6QTlVWTdEZkl0RHo4M2clM0QlM0Q.
 
 https://arduino-pico.readthedocs.io/en/latest/#
 
