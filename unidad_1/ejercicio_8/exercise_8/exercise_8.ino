@@ -12,7 +12,9 @@ void task1()
     static uint32_t lastTime = 0;
 
     // Constantes
-    constexpr uint32_t INTERVAL = 1000;
+    constexpr uint32_t INTERVAL = 1001;
+    constexpr uint32_t INTERVAL2 = 3001;
+    constexpr uint32_t INTERVAL3 = 6001;
 
     // MÁQUINA de ESTADOS
     switch (task1State)
@@ -34,32 +36,24 @@ void task1()
         uint32_t currentTime = millis();
 
         // Evento
-        if ((currentTime - lastTime) >= INTERVAL)
+               
+        if ((currentTime - lastTime) == (INTERVAL3))
         {
-            // Acciones:
-            lastTime = currentTime;
-            Serial.print("Hola");
-            Serial.print('\n');
-            INTERVAL = 2000;
-
-            if ((currentTime - lastTime) >= INTERVAL)
-            {
-            // Acciones:
-            lastTime = currentTime;
+              Serial.print("Ya volveremos a empezar :D");
+              Serial.print('\n');
+              lastTime = 0;
+              task1State = Task1States::INIT;                       
+        }
+        else if ((currentTime - lastTime) == (INTERVAL2))
+        {
             Serial.print("Van 2 segundos");
             Serial.print('\n');
-                        
-                        if ((currentTime - lastTime) >= INTERVAL)
-                {
-                  // Acciones:
-                 lastTime = currentTime;
-                 Serial.print("Ya volveremos a empezar :D");
-                 Serial.print('\n');            
-                }
-
-            }
-
-            task1State = Task1States::INIT;
+        }
+        else if ((currentTime - lastTime) == INTERVAL)
+        {            
+            Serial.print("Hola");
+            Serial.print('\n');               
+     
         }
         
         break;
