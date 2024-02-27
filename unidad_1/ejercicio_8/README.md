@@ -58,6 +58,12 @@ This was the result:
 
 ![nooo](image-1.png)
 
-It seems it´s only
 
+Ultimately it did work, sort of, it does send the message once it gets to a second, 3 seconds and 6 seconds, but it doesnt do it just once, it keeps doing it until it resets
+
+## Questions:
+
+1. **What were the states of the program?** I only used one state, instead of using more states I used more if statements, now i realize i should've used more states instead.
+2. **What were the events?** The time, to be more exact, the first second, third second and sixth second, and then it resets.
+3. **What are the actions?** There aren't any, you dont need to press or activate anything, only for time to pass.
 
