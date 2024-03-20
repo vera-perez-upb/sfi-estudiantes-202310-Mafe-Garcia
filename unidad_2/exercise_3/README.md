@@ -146,3 +146,8 @@ And this code in unity:
 
 
 This code it's supposed to start counting in the debug whenever A is pressed
+
+
+![alt text](image.png)
+
+It is working fine
