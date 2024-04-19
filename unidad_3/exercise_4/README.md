@@ -1,15 +1,13 @@
-# Exercise 1:
+# Exercise 4:
 
-After reading the first 5 pages of [this pdf](https://drive.google.com/file/d/1uDtgNkUCknkj3iTkykwhthjLoTGJCcea/view?pli=1) answer this questions:
+In this exercise we see various options for printing float numbers in just 4 bytes.
 
-1. **How does a binary protocol look?**
+This is done by converting them to hex.
 
-2. **Can you decribe the different parts of a message?**
+The first two options are said to be one kind of endian while the last one is the opposite
 
-3. **What does each part of the message do?**
+I personally don't really know which is which, how do I know what the heaviest byte is?
 
+I think the first ones are big endian and the last one is little endian, but I'm not sure 
 
-
-## Extra: unkown vocabulary:
-
-**Parity check bit:** According to [this page](https://www.tutorialspoint.com/what-is-a-parity-bit) and [this other page](https://www.ibm.com/docs/en/aix/7.1?topic=parameters-parity-bits), a parity bit is an optional check bit that checks wether a data sent ir even or odd, depending on the kind that was established, it will be marked as an error, and be given a 1, to be made even/odd
+I used [this website](https://www.baeldung.com/cs/big-endian-vs-little-endian#:~:text=Big%2Dendian%20and%20little%2Dendian%20are%20the%20two%20main%20ways,at%20the%20smallest%20memory%20location.) to learn a little more about it
