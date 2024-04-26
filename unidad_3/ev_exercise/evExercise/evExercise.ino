@@ -33,7 +33,7 @@ void task()
         {
           memcpy(arr,(uint8_t *)&num,4);
           for(int8_t i = 3; i >= 0; i--){
-                        Serial.write(arr[i]);
+          Serial.write(arr[i]);
           }          
             break;
         }
